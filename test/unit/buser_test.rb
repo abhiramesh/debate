@@ -1,6 +1,6 @@
 require 'test_helper'
 
-class BetumTest < ActiveSupport::TestCase
+class BuserTest < ActiveSupport::TestCase
   # test "the truth" do
   #   assert true
   # end

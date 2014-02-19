@@ -4,6 +4,8 @@
 
 
 $black: #313131;
+$blue: #0C5AA6;
+$lightblue: #1C6CBA;
 
 
 .bg-img {
@@ -25,4 +27,38 @@ $black: #313131;
 .home-subtitle {
 	font-size: 25px;
 	color: #313131;
+}
+
+input[type="submit"].beta-button {
+	padding: 20px 30px;
+	width: 80%;
+	max-width: 250px;
+	background: $blue;
+	border-radius: 3px;
+	color: white;
+	font-size: 16px;
+	margin-top: 10px;
+	border: none;
+	cursor: pointer;
+}
+
+input[type="submit"].beta-button:hover {
+	background: $lightblue;
+}
+
+input#buser_email {
+	width: 80%;
+	max-width: 260px;
+	margin-top: 20px;
+	padding: 19px 5px;
+	font-size: 16px;
+	border: none;
+	border-radius: 3px;
+}
+
+.thanks-message {
+	color: $lightblue;
+	font-size: 17px;
+	padding-top: 20px;
+	display: none;
 }

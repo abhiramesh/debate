@@ -8,7 +8,6 @@ gem 'rails', '3.2.13'
 gem 'devise'
 gem 'json'
 gem 'pg', '0.14.1'
-gem 'client_side_validations'
 gem 'mechanize'
 
 gem 'newrelic_rpm'

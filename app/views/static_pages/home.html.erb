@@ -6,5 +6,13 @@
 		<div class="home-subtitle">
 			Learn, argue, grow.
 		</div>
+		<%= form_for @buser, remote: true do |f| %>
+			<%= f.text_field :email %>
+			<%= f.submit "Join the movement >>", :class => "beta-button" %>
+		<% end %>
+		<div class="thanks-message">
+			Thanks! We'll be in touch soon.
+		</div>
+
 	</div>
 </body> 

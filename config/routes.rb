@@ -1,6 +1,6 @@
 Debate::Application.routes.draw do
 
-  resources :beta
+  resources :busers
 
 
   devise_for :users
