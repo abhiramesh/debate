@@ -1,5 +1,17 @@
 Debate::Application.routes.draw do
 
+  resources :articles
+
+
+  resources :comments
+
+
+  resources :conversations
+
+
+  resources :topics
+
+
   resources :busers
 
 
