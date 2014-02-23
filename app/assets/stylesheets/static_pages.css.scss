@@ -7,6 +7,21 @@ $black: #313131;
 $blue: #0C5AA6;
 $lightblue: #1C6CBA;
 
+@font-face {
+    font-family: 'Montreal';
+    src: url('montreal-demibold.ttf'); 
+}
+
+@font-face {
+    font-family: 'Nexa Light';
+    src: url('Nexa Light.otf'); 
+}
+
+@font-face {
+    font-family: 'Nexa Bold';
+    src: url('Nexa Bold.otf'); 
+}
+
 
 .bg-img {
   background: #F6F6F6; 
