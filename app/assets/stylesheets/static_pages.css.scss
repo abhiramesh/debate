@@ -24,11 +24,12 @@ $lightblue: #1C6CBA;
 
 
 .bg-img {
-  background: #F6F6F6; 
+  background: url(bg.png); 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  background-repeat: no-repeat;
   font-family: 'Nexa Light';
 }
 

@@ -5,9 +5,11 @@ Nexa Light.otf: Nexa Light-5d5c2f10317f31c9ff2fe7adacd6a4c5.otf
 Nexa Light/index.otf: Nexa Light-5d5c2f10317f31c9ff2fe7adacd6a4c5.otf
 montreal-demibold.ttf: montreal-demibold-99b03f16aa48f61e45b9658b298ef49f.ttf
 montreal-demibold/index.ttf: montreal-demibold-99b03f16aa48f61e45b9658b298ef49f.ttf
+bg.png: bg-b61a416ca25321674205cab2ffde6290.png
+bg/index.png: bg-b61a416ca25321674205cab2ffde6290.png
 application.js: application-31aa043bebc4ecea2bb9ea61f9814280.js
 application/index.js: application-31aa043bebc4ecea2bb9ea61f9814280.js
-application.css: application-ed662a1ffa1f74dbbe8b05e10c324abb.css
-application/index.css: application-ed662a1ffa1f74dbbe8b05e10c324abb.css
+application.css: application-43c16faac121f35c0f5d79a13ccb3e5a.css
+application/index.css: application-43c16faac121f35c0f5d79a13ccb3e5a.css
 jquery.min.map: jquery.min-388372ef65cc311f6a3df4a6ceac8d22.map
 jquery/index.min.map: jquery.min-388372ef65cc311f6a3df4a6ceac8d22.map
