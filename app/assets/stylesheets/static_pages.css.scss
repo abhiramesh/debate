@@ -25,7 +25,7 @@ $lightblue: #1C6CBA;
 
 
 .bg-img {
-  background: url(bg.png); 
+  background: url(bg2.png); 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -36,15 +36,14 @@ $lightblue: #1C6CBA;
 
 @media (max-width: 700px) {
   .bg-img {
-    background: #FFFFFF;
+    background: #F6F6F6;
   }
 }
 
-.home-title {
+.logo {
+	width: 80%;
+	max-width: 400px;
 	padding: 80px 0px 5px 0px;
-	font-size: 55px;
-	color: $lightblue;
-	font-weight: bold;
 }
 
 .home-subtitle {

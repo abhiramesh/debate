@@ -1,7 +1,7 @@
 <body class="bg-img">
 	<div class="container" align="center">
-		<div class="home-title">
-			Bubblify
+		<div>
+			<img src="https://s3-us-west-2.amazonaws.com/bubblify/bubblify_logo.png" class="logo">
 		</div>
 		<canvas id="myCanvas"></canvas>
 		<%= form_for @buser, remote: true do |f| %>
@@ -14,7 +14,6 @@
 		<div class="thanks-message">
 			We'll be in touch soon.
 		</div>
-		    
     <script>
       var mainCanvas = document.getElementById("myCanvas");
 	  var mainContext = mainCanvas.getContext("2d"); 
