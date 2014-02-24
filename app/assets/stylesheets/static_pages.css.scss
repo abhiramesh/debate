@@ -23,6 +23,7 @@ $lightblue: #1C6CBA;
 }
 
 
+
 .bg-img {
   background: url(bg.png); 
   -webkit-background-size: cover;
@@ -31,6 +32,12 @@ $lightblue: #1C6CBA;
   background-size: cover;
   background-repeat: no-repeat;
   font-family: 'Nexa Light';
+}
+
+@media (max-width: 700px) {
+  .bg-img {
+    background: #FFFFFF;
+  }
 }
 
 .home-title {

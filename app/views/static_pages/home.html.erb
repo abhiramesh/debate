@@ -5,7 +5,7 @@
 		</div>
 		<canvas id="myCanvas"></canvas>
 		<%= form_for @buser, remote: true do |f| %>
-			<%= f.text_field :email %>
+			<%= f.text_field :email, placeholder: "Email" %>
 			<%= f.submit "Get on the list  >>", :class => "beta-button" %>
 		<% end %>
 		<div class="home-subtitle">
