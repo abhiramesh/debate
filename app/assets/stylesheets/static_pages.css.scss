@@ -80,9 +80,14 @@ input#buser_email {
 	border: solid 1px #CCC;
 }
 
+.error-message {
+	color: red;
+	display: none;
+}
+
 .thanks-message {
 	color: $lightblue;
-	font-size: 17px;
+	font-size: 25px;
 	padding-top: 20px;
 	display: none;
 }

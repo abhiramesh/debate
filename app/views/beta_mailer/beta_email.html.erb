@@ -1,0 +1,59 @@
+	<div>
+		<div align="center">
+					<td align="center" valign="middle" bgcolor="#d7d4d3">
+						<table width="95%" cellspacing="0" cellpadding="0" id="table1">
+						<tbody>
+						<tr>
+							<td height="30" bgcolor="#f6f6f6" colspan="3" align="center"/>
+						</tr>
+						<tr>
+						<td height="16" bgcolor="#f6f6f6" colspan="3" align="center"><a href="http://www.bubblify.com" target="_blank">
+							<img src="https://s3-us-west-2.amazonaws.com/bubblify/bubblify_circle.png" width="100%" style="max-width:125px;">
+						</a></td>
+						</tr>
+						<tr>
+							<td height="30" bgcolor="#f6f6f6" colspan="3" align="center"/>
+						</tr>
+						<tr>
+							<td height="5" bgcolor="#0C5AA6" colspan="3" align="center"/>
+						</tr>
+						<tr>
+						<td width="6%" bgcolor="#FFFFFF"></td>	
+						<td bgcolor="#FFFFFF" align="left" valign="top" style="padding-bottom:20px;">
+						<font face="Tahoma,Arial,sans-serif" size="3" style="font-size:16px;line-height:22px" color="#2e2d2c">
+							<br><br>
+							Hey <%=@buser.email%>,
+							<br><br>
+							You just signed up to get exclusive access to Bubblify, and we've added you to our email list. 
+							<br><br>
+							Free free to email us at <a href="mailto:hello@bubblify.com"> hello@bubblify.com </a> with any comments or questions.
+							<br><br>
+							We'll let you know when we start bubblifying!
+							<br><br>
+							Sincerely,
+							<br>
+							The Bubblify Team 
+
+						</font>
+						</td>
+						<td width="70" bgcolor="#FFFFFF"></td>	
+						</tr>
+						<tr>
+						<td height="3" bgcolor="#0C5AA6" colspan="3"></td>
+						</tr>
+						<tr>
+							<td height="30" bgcolor="#f6f6f6" colspan="3" align="center"/>
+						</tr>
+						</tbody></table>
+					</td>
+				</tr>
+				<tr>
+                            <td align="center"><font face="Arial, serif" size="1" style="font-size:11px" color="#777777"><br>
+                            <br>
+                            This email was sent to <a href="<%=@buser.email%>" target="_blank"><%=@buser.email%></a>.<br>
+                            <br>
+                            <span class="il">Sent from Bubblify</span><br><br>
+                            </font>
+</td>
+                        </tr>
+			</tbody></table>

@@ -5,14 +5,17 @@
 		</div>
 		<canvas id="myCanvas"></canvas>
 		<%= form_for @buser, remote: true do |f| %>
-			<%= f.text_field :email, placeholder: "Email" %>
+			<%= f.text_field :email, placeholder: "  Email" %>
 			<%= f.submit "Get on the list  >>", :class => "beta-button" %>
 		<% end %>
+		<div class="error-message">
+			Please enter a valid email address.
+		</div>
 		<div class="home-subtitle">
 			Discover the news. Engage with friends.
 		</div>
 		<div class="thanks-message">
-			We'll be in touch soon.
+			You're on the list - we'll be in touch soon!
 		</div>
     <script>
       var mainCanvas = document.getElementById("myCanvas");
@@ -45,6 +48,17 @@
        drawCircle();
       
     </script>
-
+    <script type="text/javascript">
+    var email_format = /^\b[A-Z0-9._%-]+@[A-Z0-9.-]+\.[A-Z]{2,4}\b$/i
+    $('.beta-button').click(function(){
+    	if (!email_format.test($('input#buser_email').val())) {
+    		event.preventDefault();
+    		$('div.error-message').show();
+    	}
+    	if (email_format.test($('input#buser_email').val())) {
+    		$('div.error-message').hide();
+    	}
+    });	
+    </script>
 	</div>
 </body> 

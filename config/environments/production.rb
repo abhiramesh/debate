@@ -50,6 +50,17 @@ Debate::Application.configure do
 
   # Disable delivery errors, bad email addresses will be ignored
   # config.action_mailer.raise_delivery_errors = false
+  config.action_mailer.default_url_options = { :host => 'www.bubblify.com' }
+
+  config.action_mailer.smtp_settings = {
+  address: "smtp.sendgrid.net",
+  port: 587,
+  domain: "www.bubblify.com",
+  authentication: "plain",
+  enable_starttls_auto: true,
+  user_name: "app22327488@heroku.com",
+  password: "utpn71k5"
+  }
 
   # Enable threaded mode
   # config.threadsafe!

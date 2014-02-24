@@ -15,6 +15,18 @@ Debate::Application.configure do
 
   # Don't care if the mailer can't send
   config.action_mailer.raise_delivery_errors = false
+  config.action_mailer.delivery_method = :smtp
+  config.action_mailer.default_url_options = { :host => 'localhost:3000' }
+
+  config.action_mailer.smtp_settings = {
+  address: "smtp.sendgrid.net",
+  port: 587,
+  domain: "www.bubblify.com",
+  authentication: "plain",
+  enable_starttls_auto: true,
+  user_name: "app22327488@heroku.com",
+  password: "utpn71k5"
+  }
 
   # Print deprecation notices to the Rails logger
   config.active_support.deprecation = :log
