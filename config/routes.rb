@@ -19,8 +19,9 @@ Debate::Application.routes.draw do
 
   resources :users
 
+  get '/home', to: "topics#map"
 
-   root :to => 'static_pages#home'
+  root :to => 'static_pages#home'
 
   # The priority is based upon order of creation:
   # first created -> highest priority.

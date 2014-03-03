@@ -1,0 +1,36 @@
+<canvas id="mapCanvas"></canvas>
+
+
+<script type="text/javascript">
+	var height = ($(window).height())
+	var width = ($(window).width())
+	var pixels = height*width
+	var randomPixel = Math.floor(Math.random()*pixels) + 1
+
+	
+
+      var mainCanvas = document.getElementById("mapCanvas");
+      mainCanvas.width = $(window).width()-300;
+      mainCanvas.height = $(window).height()-300;
+
+      var x = Math.floor(Math.random()*mainCanvas.width) + 100
+	  var y = Math.floor(Math.random()*mainCanvas.height) + 100
+	  console.log(x,y)
+
+	  var mainContext = mainCanvas.getContext("2d"); 
+	  var canvasWidth = mainCanvas.width;
+	  var canvasHeight = mainCanvas.height;
+    
+      function drawCircle () {
+      	mainContext.clearRect(0, 0, canvasWidth, canvasHeight);
+	    var radius = 15;
+
+        mainContext.beginPath();
+        mainContext.arc(x, y, radius, 0, Math.PI * 2, false);
+   	    mainContext.closePath();
+	    mainContext.fillStyle = "#1C6CBA";
+	    mainContext.fill();
+      }
+       drawCircle();
+      
+    </script>
